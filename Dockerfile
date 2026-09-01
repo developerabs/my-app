@@ -83,8 +83,13 @@ RUN php artisan config:clear || true
 RUN php artisan route:clear || true
 RUN php artisan view:clear || true
 
+# Startup script
+COPY start.sh /usr/local/bin/start.sh
+
+RUN chmod +x /usr/local/bin/start.sh
+
 # Apache port
 EXPOSE 80
 
-# Start Apache
-CMD ["apache2-foreground"]
+# Run migration then start Apache
+CMD ["/usr/local/bin/start.sh"]
