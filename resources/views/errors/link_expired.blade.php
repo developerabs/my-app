@@ -1,0 +1,3 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Link unavailable</title><script src="https://cdn.tailwindcss.com"></script></head>
+<body class="flex min-h-screen items-center justify-center bg-slate-100 px-4"><main class="max-w-md rounded-2xl bg-white p-8 text-center shadow-xl"><h1 class="text-2xl font-bold text-slate-900">Link unavailable</h1><p class="mt-3 text-slate-600">This form link has expired or has already been used.</p></main></body></html>

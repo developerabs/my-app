@@ -1,0 +1,49 @@
+
+    table.dataTable td, table.dataTable th {
+        padding: 0.25rem 0.5rem !important;
+    }
+    table.dataTable thead th:hover {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .dt-buttons.btn-group.flex-wrap{
+        flex-wrap: nowrap !important;
+    }
+
+    .dt-search{
+        width: 100% !important;
+    }
+    input#dt-search-0{
+        width: 100% !important;
+        padding: 5px 10px;
+        margin: 0;
+        border: 1px solid #a0a0a0;
+    }
+
+    table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control {
+        padding: 0px !important;
+        background: none !important;
+    
+    }
+    table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before {
+        content: '\f055'; /* FontAwesome Plus Circle */
+        font-family: "Font Awesome 6 Free"; /* অথবা "Font Awesome 5 Free" */
+        font-weight: 900;
+        background: none;
+        color: #28a745 !important; /* green */
+        font-size: 18px;
+        border: none;
+        box-shadow: none !important;
+        background: none !important;
+    }
+    @media (max-width: 576px) {
+        table.dataTable td, table.dataTable th {
+            padding: 0.1rem 0.3rem !important;
+        }
+
+
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+
+    }
